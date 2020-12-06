@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SneakerShop1</string>
+    <string name="TextView_One">Перейти к ассортименту</string>
+    <string name="sneakershop">SneakerShop</string>
+    <string name="AddBasket">Добавить в корзину</string>
+    <string name="open_basket">Открыть корзину</string>
+    <string name="all_products">Весь ассортимент</string>
+    <string name="name_product">Название товара</string>
+    <string name="add_to_basket">Добавить в корзину</string>
+    <string name="basket_for_shop">Корзина покупок</string>
+    <string name="delete_from_basket">Удалить из корзины</string>
+    <string name="place_your_order">Оформить заказ</string>
+
+
+</resources>

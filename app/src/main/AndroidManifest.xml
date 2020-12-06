@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sneakershop1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/_ab8804256cf7fa9d287e56cd309c030"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SneakerShop1">
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="CatalogActivity"/>
+        <activity android:name="ProductDetailsActivity"></activity>
+        <activity android:name="ShoppingCartActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:layout_width="fill_parent"
+    android:background="#FFFFFF" android:orientation="vertical">
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/LinearLayoutHeader"
+        android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/ImageViewProduct"
+            android:adjustViewBounds="true" android:scaleType="fitXY"
+            android:src="@drawable/autumn1" android:layout_margin="5dip"></ImageView>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/TextViewProductTitle"
+            android:layout_gravity="center" android:layout_margin="5dip"
+            android:textSize="26dip" android:text="Название"
+            android:textColor="#03A9F4"></TextView>
+
+
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:id="@+id/TextViewProductDetails"
+        android:layout_width="fill_parent" android:layout_margin="5dip"
+        android:layout_weight="1" android:textColor="#03A9F4" android:text="Описание товара"></TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/TextViewProductPrice"
+        android:layout_width="fill_parent" android:layout_margin="5dip"
+        android:textColor="#03A9F4" android:text="Цена" android:textStyle="bold"></TextView>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_margin="5dip"
+        android:layout_gravity="right" android:id="@+id/ButtonAddToCart"
+        android:text="@string/add_to_basket"></Button>
+</LinearLayout>
